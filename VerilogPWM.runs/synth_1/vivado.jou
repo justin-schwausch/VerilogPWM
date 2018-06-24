@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Sat Jun 23 20:17:00 2018
-# Process ID: 10216
+# Start of session at: Sat Jun 23 23:21:25 2018
+# Process ID: 8460
 # Current directory: C:/Xilinx/Projects/VerilogPWM/VerilogPWM.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: C:/Xilinx/Projects/VerilogPWM/VerilogPWM.runs/synth_1/top.vds

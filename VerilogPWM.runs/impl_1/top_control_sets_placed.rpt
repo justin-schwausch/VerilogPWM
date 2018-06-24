@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Sat Jun 23 20:18:09 2018
+| Date         : Sat Jun 23 23:22:35 2018
 | Host         : DESKTOP-VFCAHNJ running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -47,26 +47,26 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               3 |            2 |
+| No           | No                    | No                     |               3 |            1 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              41 |           10 |
-| Yes          | No                    | No                     |              10 |            4 |
+| No           | Yes                   | No                     |              30 |            8 |
+| Yes          | No                    | No                     |              10 |            3 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               0 |            0 |
+| Yes          | Yes                   | No                     |              11 |            2 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+---------------------------+---------------+----------------------------------+------------------+----------------+
-|        Clock Signal       | Enable Signal |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
-+---------------------------+---------------+----------------------------------+------------------+----------------+
-|  LED_OBUF_BUFG[4]         |               |                                  |                2 |              3 |
-|  LED_OBUF_BUFG[4]         |               | Uclk_divider/counter2[9]_i_1_n_0 |                3 |             10 |
-|  LED_OBUF_BUFG[4]         | Uwav/E[0]     |                                  |                4 |             10 |
-|  Uclk_divider/LED_OBUF[0] |               | Uwav/counter[10]_i_1_n_0         |                2 |             11 |
-|  LED_OBUF_BUFG[4]         |               | Uclk_divider/clear               |                5 |             20 |
-+---------------------------+---------------+----------------------------------+------------------+----------------+
++---------------------------+------------------+----------------------------------+------------------+----------------+
+|        Clock Signal       |   Enable Signal  |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++---------------------------+------------------+----------------------------------+------------------+----------------+
+|  LED_OBUF_BUFG[4]         |                  |                                  |                1 |              3 |
+|  LED_OBUF_BUFG[4]         |                  | Uclk_divider/counter2[9]_i_1_n_0 |                3 |             10 |
+|  LED_OBUF_BUFG[4]         | Uwav/E[0]        |                                  |                3 |             10 |
+|  Uclk_divider/LED_OBUF[0] | Uwav/LED_OBUF[0] | Uwav/counter[10]_i_1_n_0         |                2 |             11 |
+|  LED_OBUF_BUFG[4]         |                  | Uclk_divider/clear               |                5 |             20 |
++---------------------------+------------------+----------------------------------+------------------+----------------+
 
 

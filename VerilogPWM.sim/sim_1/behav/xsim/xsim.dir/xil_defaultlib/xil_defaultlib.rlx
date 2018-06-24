@@ -1,0 +1,9 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+C:/Xilinx/Projects/VerilogPWM/VerilogPWM.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/Projects/VerilogPWM/VerilogPWM.srcs/sim_1/new/test.v,1529802967,verilog,,,,test,,,,,,,,
+C:/Xilinx/Projects/VerilogPWM/VerilogPWM.srcs/sources_1/new/clk_divider.v,1529803005,verilog,,C:/Xilinx/Projects/VerilogPWM/VerilogPWM.srcs/sources_1/new/top.v,,clk_divider,,,,,,,,
+C:/Xilinx/Projects/VerilogPWM/VerilogPWM.srcs/sources_1/new/top.v,1529803154,verilog,,C:/Xilinx/Projects/VerilogPWM/VerilogPWM.srcs/sources_1/new/wav.v,,top,,,,,,,,
+C:/Xilinx/Projects/VerilogPWM/VerilogPWM.srcs/sources_1/new/wav.v,1529804754,verilog,,C:/Xilinx/Projects/VerilogPWM/VerilogPWM.srcs/sim_1/new/test.v,,wav,,,,,,,,

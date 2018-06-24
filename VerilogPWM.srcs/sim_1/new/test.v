@@ -30,11 +30,14 @@ module test(JB, LED);
   initial 
   begin 
     clk = 0; //start clk at 0
-  end 
   
-  always
-  #10000000 sw <= sw + 5'b10000; //keep changing the switches to iterate through input combinations
+  sw <= 10'b1111101000;
   
+  #100000000
+   
+  sw = sw + 5'b10000; //keep changing the switches to iterate through input combinations
+  
+  end
     
   always 
     #5 clk = !clk; //simulate 100 MHz main clock

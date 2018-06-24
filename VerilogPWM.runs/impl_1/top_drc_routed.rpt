@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Sat Jun 23 20:18:27 2018
+| Date         : Sat Jun 23 23:22:53 2018
 | Host         : DESKTOP-VFCAHNJ running 64-bit major release  (build 9200)
 | Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
 | Design       : top
@@ -57,10 +57,10 @@ PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
 A LUT Uclk_divider/JB_OBUF[2]_inst_i_1 is driving clock pin of 11 cells. This could lead to large hold time violations. First few involved cells are:
     Uwav/counter_reg[0] {FDRE}
-    Uwav/counter_reg[6] {FDRE}
-    Uwav/counter_reg[10] {FDRE}
-    Uwav/counter_reg[2] {FDRE}
+    Uwav/counter_reg[4] {FDRE}
     Uwav/counter_reg[1] {FDRE}
+    Uwav/counter_reg[8] {FDRE}
+    Uwav/counter_reg[2] {FDRE}
 
 Related violations: <none>
 

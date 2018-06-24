@@ -30,8 +30,11 @@ module wav(out, clk, clk100, clk100k, sw);
     always @(posedge clk100k) //used to alter the duty cycle based off of counter
     begin
     
-
+        if(lineout == 1'b1)
+        begin
         counter <= counter + 1'b1; //increase counter
+        end
+        
         
         if(lineout == 1'b0) //when counter hits 0
         begin
